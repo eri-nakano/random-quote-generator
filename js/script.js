@@ -8,25 +8,17 @@ var quotes = [
   [ "Love is a smoke and is made with the fume of sighs.","William Shakespeare", "",""]
 ];
 
-var click = ();
-var slectedQuote = ();
-function printQuote();{
+function getRandomQuotes(){
+return quotes[Math.floor(Math.random() * quotes.length )];
+}
+function printQuote(){
   var quoteBoxDiv = document.getElementById('quote-box').innerHTML;
-    quoteBoxDiv.innerHTML = ;
+  quoteBoxDiv.innerHTML = <p class="quote"></p>
+                          <p class="source"></p>
+                          <span class="citation"> </span>
+                          <span class="year"> </span>
 }
-<p class="quote"> [quote here] </p>
-<p class="source"> [source here]
-  <span class="citation"> [citation here] </span>
-  <span class="year"> [year here] </span>
-</p>
-
-function getRandomQuotes();{
-return quotes[Math.floor(Math.random() * quotes.length )]);
-}
-while (true){
-  click = loadQuote.click;
-  selectedQuote = getRandomQuotes();
-}
+printQuote(getRandomQuotes());
 
 
 
