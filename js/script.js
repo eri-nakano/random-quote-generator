@@ -9,8 +9,6 @@ function printQuote(quote){
   selectedQuote = getRandomQuote();
     quote += '<p class="quote">' + selectedQuote.quote + '</p>';
     quote += '<p class="source">' + selectedQuote.source + '</p>';
-    quote += '<span class="citation">' + selectedQuote.citation + '</span>';
-    quote += '<span class="year">' + selectedQuote.year + '</span>';
   var quoteBoxDiv = document.getElementById('quote-box');
   quoteBoxDiv.innerHTML = quote;
 }
