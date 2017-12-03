@@ -1,27 +1,33 @@
-// six quotes to be selected randomly
+// five quotes to be selected randomly
 var quotes = [
   {
-    quote:"If you're going through hell, keep going.",
-    source:"Winston Churchill"
+    quote:"There is always something left to love.",
+    source:"Gabriel García Márquez",
+    citation:"One Hundred Years of Solitude",
+    year:"1967"
   },
   {
-    quote:"Whenever you find yourself on the side of the majority, it is time to pause and reflect.",
-    source:"Mark Twain"
+    quote:"It is only with the heart that one can see rightly; what is essential is invisible to the eye.",
+    source:"Antoine de Saint-Exupéry",
+    citation:"The Little Prince",
+    year:"1943"
   },
   {
-    quote:"Fall seven times and stand up eight.",
-    source:"Japanese Proverb"
+    quote:"There is some good in this world, and it’s worth fighting for.",
+    source:"J.R.R. Tolkien",
+    citation:"The Two Towers",
+    year:"1954"
   },
   {
-    quote:"Tomorrow belongs to those who can hear it coming",
-    source:"David Bowie"
+    quote:"Travel far enough, you meet yourself.",
+    source:" David Mitchell",
+    citation:"Cloud Atlas",
+    year:"2004"
   },
   {
-    quote:"All you need is love. But a little chocolate now and then doesn't hurt.",
-    source:"Charles Schulz"
-  },
-  {
-    quote:"Love is a smoke and is made with the fume of sighs.",
-    source:"William Shakespeare"
+    quote:"It's the possibility of having a dream come true that makes life interesting.",
+    source:"Paulo Coelho",
+    citation:"The Alchemist",
+    year:"1993"
   }
 ]
